@@ -1,0 +1,81 @@
+const { gql } = require('apollo-server');
+
+module.exports = gql`
+  type Product {
+    id: ID!
+    name: String!
+    description: String
+    price: Float
+    currency: String
+    sku: String
+    stockQuantity: Int
+    category: ProductCategory
+    images: [ProductImage!]
+    ratings: [ProductRating!]
+    averageRating: Float
+    createdAt: String
+    updatedAt: String
+  }
+
+  type ProductImage {
+    url: String!
+    altText: String
+    isPrimary: Boolean!
+  }
+
+  type ProductRating {
+    userId: ID!
+    rating: Int!
+    review: String
+    createdAt: String!
+  }
+
+  enum ProductCategory {
+    ELECTRONICS
+    CLOTHING
+    BOOKS
+    HOME
+    BEAUTY
+    SPORTS
+    OTHER
+  }
+
+  input CreateProductInput {
+    name: String!
+    description: String
+    price: Float!
+    currency: String!
+    sku: String
+    stockQuantity: Int!
+    category: ProductCategory!
+    images: [ProductImageInput!]
+  }
+
+  input UpdateProductInput {
+    name: String
+    description: String
+    price: Float
+    currency: String
+    sku: String
+    stockQuantity: Int
+    category: ProductCategory
+  }
+
+  input ProductImageInput {
+    url: String!
+    altText: String
+    isPrimary: Boolean
+  }
+
+  type Query {
+    products: [Product!]!
+    product(id: ID!): Product
+    productsByCategory(category: ProductCategory!): [Product!]!
+  }
+
+  type Mutation {
+    createProduct(input: CreateProductInput!): Product!
+    updateProduct(id: ID!, input: UpdateProductInput!): Product!
+    deleteProduct(id: ID!): Boolean!
+  }
+`;

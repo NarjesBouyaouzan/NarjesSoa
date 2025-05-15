@@ -1,0 +1,46 @@
+{"level":"error","message":"Failed to start service: This server does not host this topic-partition"}
+{"level":"info","message":"Notification service running on port 3003"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Notification service running on port 3003"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Failed to start service: Connection error: "}
+{"level":"error","message":"Failed to start service: This server does not host this topic-partition"}
+{"level":"info","message":"Notification service running on port 3003"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
+{"level":"info","message":"Received event: PAYMENT_CREATED"}
+{"level":"error","message":"Error processing message: Cannot read properties of undefined (reading 'id')"}
